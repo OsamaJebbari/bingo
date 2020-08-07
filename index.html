@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/LineIcons.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="add-ons">
+      <img src="images/undraw_image.png" alt="" />
+      <div class="spot-1"></div>
+      <div class="spot-2"></div>
+    </section>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">
+            <i class="lni lni-headphone-alt"></i>
+            Contact
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="lni lni-users"></i>
+            About
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="lni lni-help"></i>
+            Help
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <section class="birthday">
+      <ul>
+        <li><input type="text" id="day" placeholder="Day" /></li>
+        <li><input type="text" id="month" placeholder="Month" /></li>
+        <li><input type="text" id="year" placeholder="Year" /></li>
+      </ul>
+    </section>
+    <section class="output">
+      <ul>
+        <li>Age :&nbsp; <span id="age"></span></li>
+        <li>Months :&nbsp; <span id="months"></span></li>
+        <li>Weeks :&nbsp; <span id="weeks"></span></li>
+        <li>Days :&nbsp; <span id="days"></span></li>
+        <li>Hours :&nbsp; <span id="hours"></span></li>
+        <li>Minutes :&nbsp; <span id="minutes"></span></li>
+        <li>Secondes :&nbsp; <span id="secondes"></span></li>
+        <li>Next Birthday :&nbsp; <span id="next-birthday"></span></li>
+      </ul>
+    </section>
+    <button class="calc-btn" id="calc-btn" onclick="AgeCalc()">
+      Calculate
+      <i class="lni lni-calculator"></i>
+    </button>
+    <span class="source-code"> view in <a href="#">Github</a> </span>
+    <footer>
+      <span>
+        Created with
+        <i class="lni lni-coffee-cup"></i>
+        &
+        <i class="lni lni-heart-filled"></i>
+        By O.J Pro 2020.
+      </span>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
